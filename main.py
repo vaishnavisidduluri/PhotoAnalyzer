@@ -6,7 +6,7 @@ from analysis import analyze_brightness, analyze_sharpness, analyze_contrast, an
 from suggestions import generate_suggestions
 
 # Set Streamlit page configuration with a wide layout and a custom icon
-st.set_page_config(page_title="Basic Photo Analyzer", layout="wide", page_icon="📷")
+st.set_page_config(page_title="Photo Analyzer", layout="wide", page_icon="📷")
 
 # Custom CSS for better styling with dark theme and attractive colors
 st.markdown(
